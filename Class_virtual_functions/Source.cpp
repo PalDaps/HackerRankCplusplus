@@ -6,11 +6,11 @@ class Person
 protected:
 	std::string name;
 	int age;
-	static int cur_id;
+	// static int cur_id;
 public:
 	Person()
 	{
-		cur_id++;
+		// cur_id++;
 	}
 	virtual void getdata()
 	{
@@ -22,16 +22,18 @@ public:
 	}
 };
 
-int Person::cur_id = 0;
+// int Person::cur_id = 0;
 
 class Professor : public Person
 {
 	int publications;
-	// static int cur_id;
+	static int counter;
+	int cur_id;
 public:
 	Professor()
 	{
-		// cur_id++;
+		counter++;
+		cur_id = counter;
 	}
 	void getdata() override
 	{
@@ -45,16 +47,18 @@ public:
 	}
 };
 
-// int Professor::cur_id = 0;
+int Professor::counter = 0;
 
 class Student : public Person
 {
 	std::vector<int> marks;
-	// static int cur_id;
+	static int counter;
+	int cur_id;
 public:
 	Student()
 	{
-		// cur_id++;
+		counter++;
+		cur_id = counter;
 	}
 	void getdata() override
 	{
@@ -78,7 +82,7 @@ public:
 	}
 };
 
-// int Student::cur_id = 0;
+int Student::counter= 0;
 
 int main()
 {
