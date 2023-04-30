@@ -103,5 +103,10 @@ int main()
 	}
 	for (int i = 0; i < n; i++)
 		per[i]->putdata();
+
+	for (int i = 0; i < n; i++)
+	{
+		delete per[i];
+	}
 	return 0;
 }
