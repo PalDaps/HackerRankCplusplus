@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_virtual_functions", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance_inheritance_introduction", "Inheritance_inheritance_introduction\Inheritance_inheritance_introduction.vcxproj", "{10EE3BD6-449D-46BF-B6DD-DD87D38E875A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance_multi_level_inheritance", "Inheritance_multi_level_inheritance\Inheritance_multi_level_inheritance.vcxproj", "{FB6732E2-9FB9-4953-B18C-98DD78BB499C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{10EE3BD6-449D-46BF-B6DD-DD87D38E875A}.Release|x64.Build.0 = Release|x64
 		{10EE3BD6-449D-46BF-B6DD-DD87D38E875A}.Release|x86.ActiveCfg = Release|Win32
 		{10EE3BD6-449D-46BF-B6DD-DD87D38E875A}.Release|x86.Build.0 = Release|Win32
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Debug|x64.ActiveCfg = Debug|x64
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Debug|x64.Build.0 = Debug|x64
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Debug|x86.Build.0 = Debug|Win32
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Release|x64.ActiveCfg = Release|x64
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Release|x64.Build.0 = Release|x64
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Release|x86.ActiveCfg = Release|Win32
+		{FB6732E2-9FB9-4953-B18C-98DD78BB499C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
